@@ -1,0 +1,201 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+    background-color: #f2f2f;
+}
+h1 {
+    font-size: 30px;
+    font-family: Helvetica;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #262626;
+    letter-spacing: 10px;
+    
+}
+header {
+      width: 100%;
+      height: 100%;
+background-image: url("dunkin1.jpg");
+    background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+    border-bottom: 8px solid #262626;
+    background-attachment: fixed;
+}
+.active {
+    color:white;
+    border-radius: 5px;
+    border-bottom: 5px solid white;
+}
+.inactive:hover {
+    color: gray;
+    border-radius: 5px;
+    
+}
+.menu {
+    margin: 0;
+    background-color:#262626;
+}
+.content {
+        margin: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px 15px;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+    border: 5px solid #262626;
+    margin-top: 2%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+}
+ 
+ 
+nav {
+      position: fixed;
+      width: 100%;
+    z-index: 100;
+    letter-spacing: 1px;
+}
+ 
+nav ul {
+      line-height: 30px;
+      list-style: none; 
+      color: #262626;
+      margin: 0;
+     margin-left: 30%;
+    
+}
+nav ul li {
+      display: inline-block;
+      padding: 15px 50px;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+}
+span {
+    vertical-align: 60%;
+}
+
+.footer {
+    background-color: #262626;
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-decoration: none;
+    list-style: none; 
+    
+}
+a {
+    text-decoration: none;
+}
+h4 {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 25px 30%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    letter-spacing: 5px;
+    
+}
+h4:hover {
+    color: gray;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.adobo:hover {
+    opacity: .5;
+}
+.bot {
+    background-image: url(1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 110%;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 0px;
+    border-top: 8px solid #262626;
+    border-bottom: 100px solid #262626;
+    margin: 0;
+    margin-bottom: 0;
+}
+.bot2 {
+    height: 110%;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: #f2f2f;
+    background-attachment: fixed;
+    border-bottom: 100px solid #262626;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0px;
+}
+.bot3 {
+    height: 110%;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: #f2f2f;
+    background-attachment: fixed;
+    border-bottom: 100px solid #262626;
+}
+.bot4 {
+    height: 110%;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: #f2f2f;
+    background-attachment: fixed;
+    border-bottom: 100px solid #262626;
+}
+.bot5 {
+    height: 110%;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: #f2f2f;
+    background-attachment: auto;
+    border-bottom: 100px solid #262626;
+    
+}
+.bot6 {
+    height: 110%;
+    background-image: url(6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    background-color: #f2f2f;
+    background-attachment: fixed;
+    border-bottom: 100px solid #262626;
+}
+
